@@ -18,7 +18,7 @@ const loadAPI = (_limit, _launchSuccess, _landSuccess, _launchYear) => {
     dataWrapper.innerHTML = ''
     let html = '';
     noResultEl.style.display = 'none'
-    loadingEl.style.display = 'inline'
+   
     fetch(`https://api.spacexdata.com/v3/launches?limit=${_limit}&launch_success=${_launchSuccess}&land_success=${_landSuccess}&launch_year=${_launchYear}`)
     .then(response => response.text())
     .then(data => {
