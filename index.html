@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h2>SpaceX Launch Programs</h2>
+        </header>
+
+        <main>
+            <aside>
+                <h3>Filters</h3>
+                <div class="options launch-year">
+                    <h5>Launch Year</h5>
+                    <ul>
+                        <li><a>2006</a></li>
+                        <li><a>2007</a></li>
+                        <li><a>2008</a></li>
+                        <li><a>2009</a></li>
+                        <li><a>2010</a></li>
+                        <li><a>2011</a></li>
+                        <li><a>2012</a></li>
+                        <li><a>2013</a></li>
+                        <li><a>2014</a></li>
+                        <li><a>2015</a></li>
+                        <li><a>2016</a></li>
+                        <li><a>2017</a></li>
+                        <li><a>2018</a></li>
+                        <li><a>2019</a></li>
+                        <li class="active"><a>2020</a></li>
+                    </ul>
+                </div>
+                <div class="options launch-success">
+                    <h5>Successful Launch</h5>
+                    <ul>
+                        <li><a data-success="true">True</a></li>
+                        <li><a data-success="false">False</a></li>
+                    </ul>
+                </div>
+                <div class="options land-success">
+                    <h5>Successful Landing</h5>
+                    <ul>
+                        <li><a data-success="true">True</a></li>
+                        <li><a data-success="false">False</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section>
+                <div class="no-result">Result Not found..</div>
+                <div id="data"></div>
+            </section>
+        </main>
+        <footer>
+            <span><b>Developed By :</b> Harmeek Singh</span>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
